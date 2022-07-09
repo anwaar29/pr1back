@@ -5,6 +5,7 @@ const app = express()
 app.use(cors())
 app.use("/api",detalisRouter1)
 
-app.listen(process.env.PORT || 3004,()=>{
+
+app.listen(process.env.PORT||3004,()=>{
     console.log("app is running");
 })
